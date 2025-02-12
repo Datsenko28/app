@@ -54,8 +54,9 @@ document.addEventListener("DOMContentLoaded", () => {
     currentIndex = (currentIndex - 1 + cards.length) % cards.length; // Зациклення назад
     updateSlider();
     addClass(prevButton, "active");
-    console.log('222');
+
     
+    console.log("123");
   });
 
   function addClass(element, className) {
